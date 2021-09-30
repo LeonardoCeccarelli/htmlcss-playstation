@@ -1,8 +1,28 @@
+/* *****************
+RESET FONT-SIZE
+***************** */
+
+h2, .h2 {
+    font-size: 2.5rem;
+}
+
+h3, .h3 {
+    font-size: 2.3rem;
+}
+
+h4 .h4 {
+    font-size: 1.3rem;
+}
+
+h5, .h5, .small, footer {
+    font-size: 0.9rem;
+}
+
 /* **********************
 CLASSI LAYOUT
 ********************** */
 
-/* HEADER */
+/* *****HEADER***** */
 nav:nth-child(1) div {
     width: 75px;
     padding: 5px;
@@ -15,11 +35,22 @@ nav:nth-child(1) div img {
     width: 100%;
 }
 
-/* MAIN */
+/* *****MAIN***** */
 
 /* main hero */
 .main_hero {
-    background-image: url();
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+}
+
+.main_hero .main_hero_card {
+    padding-top: 200px;
+}
+
+.main_hero .main_hero_card img {
+    width: 270px;
 }
 
 /* ******************
@@ -34,14 +65,25 @@ CLASSI UTILITIES
     background-color: black;
 }
 
-.c_grey {
-    color: #727272;
-}
-
 .bg_grey {
     background-color: #727272;
     color: white;
 }
+
+.bg_red {
+    background-color: #d7623d;
+    color: white;
+}
+
+.c_grey {
+    color: #727272;
+}
+
+.c_white {
+    color: white;
+}
+
+
 
 /* btn effetti hover e focus */
 .bg_grey:hover {
@@ -50,4 +92,48 @@ CLASSI UTILITIES
 
 .bg_grey:focus {
     box-shadow: none;
+}
+
+.bg_red:hover {
+    color: white;
+}
+
+.bg_red:focus {
+    box-shadow: none;
+}
+
+/* padding sezioni e testi/titoli */
+.section_base_p {
+    padding: 60px 0;
+}
+
+.section_medium_p {
+    padding: 40px 0;
+}
+
+.title_section_p {
+    padding-bottom: 18px;
+}
+
+/* ***************************
+MEDIA QUERIES
+*************************** */
+
+/* sm */
+@media screen and (min-width: 576px) {
+    
+}
+
+/* md */
+@media screen and (min-width: 768px) {
+    .main_hero .main_hero_card img {
+        width: 300px;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 992px) {
+    .main_hero .main_hero_card img {
+        width: 240px;
+    }
 }
