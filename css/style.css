@@ -118,11 +118,15 @@ CLASSI UTILITIES
 
 /* padding sezioni e testi/titoli */
 .section_base_p {
-    padding: 60px 0;
+    padding: 50px 0;
 }
 
 .section_medium_p {
-    padding: 40px 0;
+    padding: 35px 0;
+}
+
+.section_small_p {
+    padding: 25px 0;
 }
 
 .title_section_p {
