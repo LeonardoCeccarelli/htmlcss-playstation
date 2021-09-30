@@ -67,8 +67,13 @@ CLASSI UTILITIES
     color: white;
 }
 
+.bg_cyan {
+    background-color: #2d64e6;
+    color: white;
+}
+
 .bg_red {
-    background-color: #d7623d;
+    background-color: #cd3d0f;
     color: white;
 }
 
@@ -103,6 +108,14 @@ CLASSI UTILITIES
     box-shadow: none;
 }
 
+.bg_cyan:hover {
+    color: white;
+}
+
+.bg_cyan:focus {
+    box-shadow: none;
+}
+
 /* padding sezioni e testi/titoli */
 .section_base_p {
     padding: 60px 0;
@@ -114,6 +127,10 @@ CLASSI UTILITIES
 
 .title_section_p {
     padding-bottom: 18px;
+}
+
+.subtitle_section_p {
+    padding-bottom: 14px;
 }
 
 /* border radius */
