@@ -1,0 +1,53 @@
+/* **********************
+CLASSI LAYOUT
+********************** */
+
+/* HEADER */
+nav:nth-child(1) div {
+    width: 75px;
+    padding: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+nav:nth-child(1) div img {
+    width: 100%;
+}
+
+/* MAIN */
+
+/* main hero */
+.main_hero {
+    background-image: url();
+}
+
+/* ******************
+CLASSI UTILITIES
+****************** */
+
+/* font size e dimensioni */
+
+
+/* sfondo e colori */
+.bg_black {
+    background-color: black;
+}
+
+.c_grey {
+    color: #727272;
+}
+
+.bg_grey {
+    background-color: #727272;
+    color: white;
+}
+
+/* btn effetti hover e focus */
+.bg_grey:hover {
+    color: white;
+}
+
+.bg_grey:focus {
+    box-shadow: none;
+}
