@@ -65,6 +65,16 @@ nav:nth-child(1) div img {
     width: 270px;
 }
 
+/* sezione ps plus */
+.psplus_section .psplus_section_text img {
+    width: 270px;
+}
+
+.psplus_section .psplus_section_text {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 /* ******************
 CLASSI UTILITIES
 ****************** */
@@ -76,6 +86,14 @@ CLASSI UTILITIES
 
 .bg_darkgrey {
     background-color: #1f1f1f;
+}
+
+.bg_grey_psplus {
+    background-color: #bebcbb;
+}
+
+.bg_light_grey {
+    background-color: #d9dadc;
 }
 
 .bg_grey {
@@ -99,6 +117,10 @@ CLASSI UTILITIES
 
 .c_white {
     color: white;
+}
+
+.c_cyan {
+    color: #2d64e6;
 }
 
 .c_lightblue {
@@ -129,6 +151,14 @@ CLASSI UTILITIES
 }
 
 .bg_cyan:focus {
+    box-shadow: none;
+}
+
+.bg_light_grey:hover {
+    color: #2d64e6;
+}
+
+.bg_light_grey:focus {
     box-shadow: none;
 }
 
@@ -177,6 +207,14 @@ MEDIA QUERIES
     .second_hero .second_hero_card img {
         width: 300px;
     }
+
+    .psplus_section .psplus_section_text {
+        padding: 25px 0;
+    }
+
+    .psplus_section .psplus_section_text img {
+        width: 240px;
+    }
 }
 
 /* lg */
@@ -187,5 +225,13 @@ MEDIA QUERIES
 
     .second_hero .second_hero_card img {
         width: 240px;
+    }
+
+    .psplus_section .psplus_section_text {
+        padding: 35px 0;
+    }
+
+    .psplus_section .psplus_section_text img {
+        width: 270px;
     }
 }
