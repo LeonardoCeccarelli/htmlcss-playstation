@@ -57,9 +57,6 @@ nav:nth-child(1) div img {
 CLASSI UTILITIES
 ****************** */
 
-/* font size e dimensioni */
-
-
 /* sfondo e colori */
 .bg_black {
     background-color: black;
@@ -113,6 +110,11 @@ CLASSI UTILITIES
 
 .title_section_p {
     padding-bottom: 18px;
+}
+
+.b_radius {
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 /* ***************************
