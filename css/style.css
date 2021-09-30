@@ -53,6 +53,18 @@ nav:nth-child(1) div img {
     width: 270px;
 }
 
+/* second hero */
+.second_hero {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+}
+
+.second_hero .second_hero_card img {
+    width: 270px;
+}
+
 /* ******************
 CLASSI UTILITIES
 ****************** */
@@ -157,11 +169,19 @@ MEDIA QUERIES
     .main_hero .main_hero_card img {
         width: 300px;
     }
+
+    .second_hero .second_hero_card img {
+        width: 300px;
+    }
 }
 
 /* lg */
 @media screen and (min-width: 992px) {
     .main_hero .main_hero_card img {
+        width: 240px;
+    }
+
+    .second_hero .second_hero_card img {
         width: 240px;
     }
 }
