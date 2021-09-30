@@ -80,6 +80,10 @@ CLASSI UTILITIES
     color: white;
 }
 
+.c_lightblue {
+    color: #0072ce;
+}
+
 
 
 /* btn effetti hover e focus */
@@ -112,6 +116,7 @@ CLASSI UTILITIES
     padding-bottom: 18px;
 }
 
+/* border radius */
 .b_radius {
     border-radius: 15px;
     overflow: hidden;
