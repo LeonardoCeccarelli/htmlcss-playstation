@@ -75,6 +75,17 @@ nav:nth-child(1) div img {
     padding-right: 10px;
 }
 
+/* sezione ps now */
+.psnow_section .psnow_section_text img {
+    width: 270px;
+}
+
+.psnow_section .psnow_section_text {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
 /* ******************
 CLASSI UTILITIES
 ****************** */
@@ -104,6 +115,10 @@ CLASSI UTILITIES
 .bg_cyan {
     background-color: #2d64e6;
     color: white;
+}
+
+.bg_darkblue {
+    background-color: #161c3b;
 }
 
 .bg_red {
@@ -215,6 +230,14 @@ MEDIA QUERIES
     .psplus_section .psplus_section_text img {
         width: 240px;
     }
+
+    .psnow_section .psnow_section_text {
+        padding: 25px 0;
+    }
+
+    .psnow_section .psnow_section_text img {
+        width: 240px;
+    }
 }
 
 /* lg */
@@ -232,6 +255,14 @@ MEDIA QUERIES
     }
 
     .psplus_section .psplus_section_text img {
+        width: 270px;
+    }
+
+    .psnow_section .psnow_section_text {
+        padding: 35px 0;
+    }
+
+    .psnow_section .psnow_section_text img {
         width: 270px;
     }
 }
