@@ -41,7 +41,7 @@ nav > div:nth-child(1) div img {
 .main_hero {
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
-    background-position: center;
+    background-position: top;
     min-height: 500px;
 }
 
@@ -179,23 +179,26 @@ CLASSI UTILITIES
 
 /* padding sezioni e testi/titoli */
 .section_base_p {
-    padding: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .section_medium_p {
-    padding: 35px 0;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 .section_small_p {
-    padding: 25px 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .title_section_p {
-    padding-bottom: 18px;
+    margin-bottom: 18px;
 }
 
 .subtitle_section_p {
-    padding-bottom: 14px;
+    margin-bottom: 14px;
 }
 
 /* border radius */
@@ -224,7 +227,8 @@ MEDIA QUERIES
     }
 
     .psplus_section .psplus_section_text {
-        padding: 25px 0;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 
     .psplus_section .psplus_section_text img {
@@ -232,7 +236,8 @@ MEDIA QUERIES
     }
 
     .psnow_section .psnow_section_text {
-        padding: 25px 0;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 
     .psnow_section .psnow_section_text img {
@@ -251,7 +256,8 @@ MEDIA QUERIES
     }
 
     .psplus_section .psplus_section_text {
-        padding: 35px 0;
+        padding-top: 35px;
+        padding-bottom: 35px;
     }
 
     .psplus_section .psplus_section_text img {
@@ -259,7 +265,8 @@ MEDIA QUERIES
     }
 
     .psnow_section .psnow_section_text {
-        padding: 35px 0;
+        padding-top: 35px;
+        padding-bottom: 35px;
     }
 
     .psnow_section .psnow_section_text img {
