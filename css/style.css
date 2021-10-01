@@ -222,7 +222,7 @@ CLASSI UTILITIES
     overflow: hidden;
 }
 
-/* linee e opacity */
+/* linee, bordi e opacity */
 .underline_blue {
     position: relative;
 }
@@ -239,6 +239,21 @@ CLASSI UTILITIES
 
 .item_opacity {
     opacity: 0.5;
+}
+
+.border_blue {
+    position: relative;
+}
+
+.border_blue::after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 3px;
+    right: 3px;
+    bottom: -5px;
+    border: 2px solid #0072ce;
+    border-radius: 20px;
 }
 
 /* ***************************
