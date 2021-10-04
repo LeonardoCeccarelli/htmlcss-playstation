@@ -157,9 +157,7 @@ CLASSI UTILITIES
     color: #0072ce;
 }
 
-
-
-/* btn effetti hover e focus */
+/* btn/link effetti hover e focus */
 .bg_grey:hover {
     color: white;
 }
@@ -190,6 +188,11 @@ CLASSI UTILITIES
 
 .bg_light_grey:focus {
     box-shadow: none;
+}
+
+nav ul:nth-child(1) a:hover,
+nav ul:nth-child(2) li:first-child a:hover {
+    color: blue !important;
 }
 
 /* padding sezioni e testi/titoli */
