@@ -35,6 +35,7 @@ nav > div:nth-child(1) div img {
     width: 100%;
 }
 
+/* menu tendina */
 .menu_collapse {
     position: fixed;
     top: -160px;
@@ -55,6 +56,16 @@ nav ul a:focus + .menu_collapse {
 .menu_collapse > .row > *:hover {
     background-color: lightgrey;
     border-radius: 5px;
+}
+
+/* rotazione icona */
+nav ul a i {
+    transition: transform .2s linear;
+}
+
+nav ul a:focus i {
+    transform: rotateZ(180deg) scale(0.8);
+    color: black;
 }
 
 /* *****MAIN***** */
