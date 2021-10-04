@@ -219,10 +219,19 @@ nav ul:nth-child(2) li:first-child a:hover {
     margin-bottom: 14px;
 }
 
-/* border radius */
+/* effetti img/border radius */
 .b_radius {
     border-radius: 15px;
     overflow: hidden;
+}
+
+.image_rotation > div {
+    transition: transform .2s linear;
+}
+
+.image_rotation > div:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
 }
 
 /* linee, bordi e opacity */
