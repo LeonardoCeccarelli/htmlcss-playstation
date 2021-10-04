@@ -241,6 +241,10 @@ CLASSI UTILITIES
     opacity: 0.5;
 }
 
+.item_opacity:hover {
+    opacity: 1;
+}
+
 .border_blue {
     position: relative;
 }
