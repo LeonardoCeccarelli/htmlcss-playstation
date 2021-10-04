@@ -35,6 +35,28 @@ nav > div:nth-child(1) div img {
     width: 100%;
 }
 
+.menu_collapse {
+    position: fixed;
+    top: -160px;
+    left: 0;
+    right: 0;
+    transition: all .2s linear;
+    z-index: -1;
+}
+
+nav ul a:focus + .menu_collapse {
+    top: 84px;
+}
+
+.menu_collapse > .row > * {
+    cursor: pointer;
+}
+
+.menu_collapse > .row > *:hover {
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
 /* *****MAIN***** */
 
 /* main hero */
@@ -158,36 +180,20 @@ CLASSI UTILITIES
 }
 
 /* btn/link effetti hover e focus */
-.bg_grey:hover {
-    color: white;
+button:hover {
+    color: white !important;
 }
 
-.bg_grey:focus {
-    box-shadow: none;
+button.bg_light_grey:hover {
+    color: #2d64e6 !important;
 }
 
-.bg_red:hover {
-    color: white;
+button.btn-light:hover {
+    color: black !important;
 }
 
-.bg_red:focus {
-    box-shadow: none;
-}
-
-.bg_cyan:hover {
-    color: white;
-}
-
-.bg_cyan:focus {
-    box-shadow: none;
-}
-
-.bg_light_grey:hover {
-    color: #2d64e6;
-}
-
-.bg_light_grey:focus {
-    box-shadow: none;
+button:focus {
+    box-shadow: none !important;
 }
 
 nav ul:nth-child(1) a:hover,
@@ -230,7 +236,7 @@ nav ul:nth-child(2) li:first-child a:hover {
 }
 
 .image_rotation > div:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
     cursor: pointer;
 }
 
@@ -251,6 +257,7 @@ nav ul:nth-child(2) li:first-child a:hover {
 
 .item_opacity {
     opacity: 0.5;
+    transition: opacity .3s linear;
 }
 
 .item_opacity:hover {
