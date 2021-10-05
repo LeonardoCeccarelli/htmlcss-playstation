@@ -219,6 +219,10 @@ nav ul:nth-child(2) li:first-child a:hover {
     padding-bottom: 50px;
 }
 
+.section_base_p.section_ps5_description {
+    padding-bottom: 0;
+}
+
 .section_medium_p {
     padding-top: 35px;
     padding-bottom: 35px;
@@ -304,6 +308,10 @@ MEDIA QUERIES
 @media screen and (min-width: 768px) {
     .main_hero .main_hero_card img {
         width: 300px;
+    }
+
+    .section_base_p.section_ps5_description {
+        padding-bottom: 50px;
     }
 
     .second_hero .second_hero_card img {
